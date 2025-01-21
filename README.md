@@ -2,20 +2,10 @@
 
 이 프로젝트는 Spring Boot 3과 ActiveMQ Artemis를 사용하여 메시징을 처리합니다.
 
-## 의존성 설정
+## 1. `build.gradle` 의존성 설정
 
 - **Spring Boot Starter Artemis**: Spring Boot 3에서 ActiveMQ Artemis를 사용할 때 필요한 기본 의존성입니다.
 - **ActiveMQ Artemis Jakarta EE 지원 버전**: ActiveMQ Artemis의 Jakarta EE 3.0을 지원하는 버전입니다.
-
-
-아래와 같이 `README` 파일에 넣을 수 있는 형식으로 변환할 수 있습니다:
-
-```markdown
-# ActiveMQ Artemis를 사용한 메시지 송수신 예제
-
-이 예제는 Spring Boot 3와 ActiveMQ Artemis를 사용하여 메시지를 송수신하는 간단한 예제입니다.
-
-## 1. `build.gradle` 설정
 
 ActiveMQ Artemis를 사용하려면 `build.gradle` 파일에 다음 의존성을 추가해야 합니다.
 
@@ -143,5 +133,5 @@ public class MessageController {
    메시지가 성공적으로 전송되면 `test-queue`에서 메시지를 수신할 수 있습니다.
 ```
 
-이렇게 작성하면 `README` 파일에서 ActiveMQ Artemis를 사용하는 방법과 예제 코드들을 한눈에 볼 수 있습니다.
+
 
